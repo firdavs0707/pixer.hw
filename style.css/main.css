@@ -1,0 +1,254 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container2{
+    margin-top: 050px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+    cursor:pointer;
+}
+
+.item{
+    width: 73px;
+    height: 24px;
+    font-family: 'Open San';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-part-3{
+    width: 100px;
+}
+
+.big-part-2{
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    background: #00BAFC;
+    border: 2px solid #00BAFC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.num-phone {
+    width: 127px;
+    height: 24px;
+    font-family: 'Open San';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero2-info{
+    width: 450px;
+    margin-right: 250px;
+    padding-bottom: 20px;
+}
+
+.content-hero {
+    margin-top: 100px;
+
+}
+
+.hero-content{
+    display: flex;
+}
+
+.hero-h2{
+    width: 470px;
+    height: 78px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.info {
+    width: 465px;
+    height: 74px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.you-tube{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.item-info1{
+    width: 117px;
+    height: 31px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-left: 300px;
+}
+
+.item-info2 {
+    width: 719px;
+    height: 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+}
+
+.xizmatlar{
+    margin-top: 100px;
+    margin-left:300px;
+    margin-right: auto;
+}
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 288px;
+    background-color: #fff;
+}
+
+.list3{
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    height: 288px;
+    background-color: #fff;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    width: 320px;
+    height: 260px;
+    background: #fff;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+}
+
+.item2:hover{
+    transform: scale(1.2);
+}
+
+.img-main{
+    margin-top: 10px;
+    width: 176.85px;
+    height: 130px;
+}
+
+.info-main{
+    width: 100px;
+height: 6px;
+font-family: 'Open San';
+font-style: normal;
+font-weight: 700;
+text-align: center;
+margin-bottom: -30px;
+
+}
+
+.link2{
+    text-decoration: none;
+    color: #000000;
+}
+
+.last-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.last-link{
+    color: #00BAFC;
+    margin-left: 90px;
+}
+
+
